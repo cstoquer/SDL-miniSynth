@@ -283,7 +283,7 @@ int main(int argc, char* argv[]){
 
 	RenderingContext ctx(screen);
 	ctx.backgroundColor(0, 0, 0);
-	AmsFont font("/home/pi/Sources/SDLsynth/nesFont.bmp");
+	AmsFont font("./nesFont.bmp");
 
 	font.paper(0);
 	font.pen(26);
@@ -324,6 +324,8 @@ int main(int argc, char* argv[]){
 		int y;
 		while (SDL_PollEvent(&event)) {
 			switch (event.type) {
+			case SDL_KEYDOWN:
+				// TODO: check for specific key
 			case SDL_QUIT: run = 0; break;
 			case SDL_MOUSEMOTION:
 				// x = event.motion.x / 8;
