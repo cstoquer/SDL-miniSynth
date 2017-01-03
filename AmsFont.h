@@ -11,8 +11,8 @@
 //██▀ ▀█▀ ▀▀ ▀█ ▀█ █ ▀▀▀▀▄██▀ ▀█████▄▀▀▀▀▄██▀ ▀█▀ ▀██▄▀▀▀▄█
 //█████████████████████████████████████████████████████████
 
-const int SCREEN_W = 320;
-const int SCREEN_H = 240;
+const int SCREEN_W = 480;
+const int SCREEN_H = 272;
 
 const int CHAR_SIZE  = 8;
 const int MAX_COLUMN = SCREEN_W / CHAR_SIZE;
