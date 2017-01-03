@@ -30,4 +30,3 @@ ln -s sdltest /home/pi/Desktop/
 # to switch audio output to analog:
 amixer cset numid=3 1 # 0=auto, 1=analog, 2=HDMI
 ```
-s
